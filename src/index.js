@@ -3,7 +3,7 @@ import printMe from './print.js';
 
 function component() {
     let element = document.createElement('div');
-    var btn = document.createElement('button');
+    let btn = document.createElement('button');
 
     // Lodash, now imported by this script
     element.innerHTML = _.join(['Hello', 'webpack'], ' ');
