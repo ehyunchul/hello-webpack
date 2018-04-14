@@ -12,6 +12,14 @@ const config = {
         contentBase: './dist',
         hot: true
     },
+    module: {
+      rules: [
+          {
+              test: /\.css$/,
+              use: ['style-loader', 'css-loader']
+          }
+      ]
+    },
     plugins: [
         new CleanWebpackPlugin(['dist']),
         new HtmlWebpackPlugin({
