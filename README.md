@@ -1,3 +1,5 @@
+[![webpack][webpack]][webpack-url]
+
 # Webpack 4 Guide 따라하기
 > Getting Started Webpack 4
 
@@ -36,3 +38,5 @@ npm start
 ```
 > `localhost:8080` 서버를 띄우고 변경사항을 즉시 적용한다
 
+[webpack]: https://img.shields.io/badge/webpack-4.4.1-blue.svg
+[webpack-url]: https://webpack.js.org/
